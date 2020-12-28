@@ -51,16 +51,7 @@ Final Steps:
 		*To take attendance press "Take Attendance" button.
 		*The attendance will be saved to dir:("DATA\Attendance\") in a .csv file with date and time. 
 		
-Features:
-	*There are no exception in the project. 
-	*If the entered data is not correct then in notification area an alert will be printed to assist the user.
-	******press "q" to close camera windows.
 
-
-Project By:- Harshit soni
-Enrollment no.:- A20405216031 
-
-	
 
 
 
