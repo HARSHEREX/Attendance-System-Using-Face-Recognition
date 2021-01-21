@@ -147,7 +147,7 @@ def existalready(Id):
         return True
 
 def removecheck(Id):
-    if existalready(Id)==True:
+    if existalready(Id) is True:
         return False
     else:
         return True
