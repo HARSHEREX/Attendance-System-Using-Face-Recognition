@@ -188,7 +188,7 @@ def capture():
                     cv2.imshow('frame',grayImg)
                 if cv2.waitKey(1) & 0xFF == ord('q'): #press q to exit to the camera frame
                     break #braek to while loop
-                elif imgnum>=180:
+                if imgnum>=180:
                     break #if total samples are more then 180 the break the loop
             cam.release() #turning of the camera
             cv2.destroyAllWindows() #closing the camera window
