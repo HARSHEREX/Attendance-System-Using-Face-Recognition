@@ -1,11 +1,8 @@
 import tkinter as tk #gui lib
-from tkinter import Message ,Text #notifiations
 import cv2,os #computer vision #OS lib for path handling   
-import shutil #fast file operation lib -copy - move -open - close
 import csv #reading csv and writing csv
 import numpy as np #numeric python normally for array
-from PIL import Image, ImageTk #pilow image module for fast image processing
-from PIL import ImageFilter
+from PIL import Image #pilow image module for fast image processing
 import pandas as pd #data management 
 import datetime #for attendance timing 
 import time #for attendance timing
